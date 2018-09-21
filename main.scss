@@ -36,10 +36,11 @@ $dark:          $gray-800;
 html, body {
   background-color: $primary;
   color: $info;
+  margin: 15px;
 }
 
 body {
-  .card, .votePledge, h1 {
+  .card, .votePledge, h1, h2 {
     text-align: center;
   }
 
