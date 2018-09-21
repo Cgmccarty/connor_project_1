@@ -103,13 +103,13 @@
             <option>No</option>
           </select>
         </div>
-        <button type="submit" class="btn btn-primary">Pledge</button>
-        </br>
         </br>
         <div class="form-group">
           <label for="formControlRange">Would you like to donate?</label>
-          <input type="range" class="slider" id="formControlRange" style="width: 25%" min="$0.01" max="$1,000" value="$5">
+          <input type="range" name="range" class="range" id="range" style="width: 25%" min="0" max="1000"  step="1" value="0" oninput="toDollars()">
+          <output for="range" id="output">$0</output>
         </div>
+        <button type="reset" class="btn btn-primary" id="button" onclick="thankYou()">Pledge</button>
       </form>
     </div>
     </br>
