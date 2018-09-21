@@ -1,0 +1,14 @@
+html, body {
+  background-color: #003763;
+  color: #cd9703;
+}
+
+body .card, body .votePledge, body h1 {
+  text-align: center;
+}
+body select {
+  display: block;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=output.css.map */
