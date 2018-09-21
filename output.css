@@ -30,6 +30,9 @@ body .issues {
   border-bottom: ridge;
   padding: 15px;
 }
+body output {
+  color: #18D501;
+}
 
 input[type=range] {
   height: 15px;
