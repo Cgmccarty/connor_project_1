@@ -60,4 +60,28 @@ body {
     margin: auto;
     text-align: center;
   }
+
+  .issues {
+    border-top: ridge;
+    border-bottom: ridge;
+    padding: 15px;
+  }
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 23px;
+    height: 24px;
+    border: 0;
+    background: url("green.ico");
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    height: 25px;
+    border: 0;
+    background: url("green.ico");
+    cursor: pointer;
 }
