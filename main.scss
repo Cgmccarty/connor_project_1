@@ -71,15 +71,14 @@ body {
     text-align: center;
   }
 
-  .issues1 {
-    border-top: ridge;
-    border-bottom: ridge;
-    padding: 15px;
-  }
+  .issues1, .issues2, .issues3 {
+    border-left: ridge;
+    border-right: ridge;
+    border-color: $secondary;
+    padding: 40px;
+    border-radius: 75%;
+    text-align: center;
 
-  .issues2 {
-    border-bottom: ridge;
-    padding: 15px;
   }
 
   output {

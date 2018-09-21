@@ -28,14 +28,13 @@ body .thankYou {
   margin: auto;
   text-align: center;
 }
-body .issues1 {
-  border-top: ridge;
-  border-bottom: ridge;
-  padding: 15px;
-}
-body .issues2 {
-  border-bottom: ridge;
-  padding: 15px;
+body .issues1, body .issues2, body .issues3 {
+  border-left: ridge;
+  border-right: ridge;
+  border-color: #1b73d3;
+  padding: 40px;
+  border-radius: 75%;
+  text-align: center;
 }
 body output {
   color: #18D501;
