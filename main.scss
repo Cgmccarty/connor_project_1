@@ -35,7 +35,7 @@ $dark:          $gray-800;
 
 html, body {
   background-color: $primary;
-  color: $info;
+  color: $warning;
   margin: 15px;
   height: 100%;
   display: grid;
@@ -53,7 +53,11 @@ body {
     color: $info;
   }
 
-  .card, .votePledge, h1, h2 {
+  h1, h2, h3 {
+    color: $info;
+  }
+
+  .card, .votePledge, h1, h2, {
     text-align: center;
   }
 
@@ -67,8 +71,13 @@ body {
     text-align: center;
   }
 
-  .issues {
+  .issues1 {
     border-top: ridge;
+    border-bottom: ridge;
+    padding: 15px;
+  }
+
+  .issues2 {
     border-bottom: ridge;
     padding: 15px;
   }

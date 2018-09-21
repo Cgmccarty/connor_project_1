@@ -1,6 +1,6 @@
 html, body {
   background-color: #003763;
-  color: #cd9703;
+  color: #d5ad36;
   margin: 15px;
   height: 100%;
   display: grid;
@@ -14,6 +14,9 @@ html #button, body #button {
 body a {
   color: #cd9703;
 }
+body h1, body h2, body h3 {
+  color: #cd9703;
+}
 body .card, body .votePledge, body h1, body h2 {
   text-align: center;
 }
@@ -25,8 +28,12 @@ body .thankYou {
   margin: auto;
   text-align: center;
 }
-body .issues {
+body .issues1 {
   border-top: ridge;
+  border-bottom: ridge;
+  padding: 15px;
+}
+body .issues2 {
   border-bottom: ridge;
   padding: 15px;
 }
