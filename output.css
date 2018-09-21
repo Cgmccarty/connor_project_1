@@ -2,14 +2,23 @@ html, body {
   background-color: #003763;
   color: #cd9703;
   margin: 15px;
+  height: 100%;
+  display: grid;
 }
 
+body a {
+  color: #cd9703;
+}
 body .card, body .votePledge, body h1, body h2 {
   text-align: center;
 }
 body select {
   display: block;
   margin: 0 auto;
+}
+body .thankYou {
+  margin: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=output.css.map */

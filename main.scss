@@ -37,9 +37,16 @@ html, body {
   background-color: $primary;
   color: $info;
   margin: 15px;
+  height: 100%;
+  display: grid;
 }
 
 body {
+
+  a {
+    color: $info;
+  }
+
   .card, .votePledge, h1, h2 {
     text-align: center;
   }
@@ -47,5 +54,10 @@ body {
   select {
     display: block;
     margin: 0 auto;
+  }
+
+  .thankYou {
+    margin: auto;
+    text-align: center;
   }
 }
