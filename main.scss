@@ -39,6 +39,7 @@ html, body {
   margin: 15px;
   height: 100%;
   display: grid;
+  margin-right: 20px;
 
   #button {
     background-color: $info;
@@ -47,7 +48,12 @@ html, body {
   }
 }
 
+footer {
+  margin-bottom: 75px;
+}
+
 body {
+  margin-top: 50px;
 
   a {
     color: $info;
@@ -72,17 +78,31 @@ body {
   }
 
   .issues1, .issues2, .issues3 {
-    border-left: ridge;
-    border-right: ridge;
+    border-top: ridge;
+    border-bottom: ridge;
     border-color: $secondary;
-    padding: 40px;
-    border-radius: 75%;
+    border-radius: 10%;
+    padding: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
-
   }
 
   output {
     color: #18D501;
+    position: relative;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    border-radius: 10%;
+    overflow: hidden;
   }
 }
 
@@ -92,6 +112,7 @@ input[type=range] {
   margin: 10px 10px;
   width: 100%;
   background-color: $primary;
+  position: relative;
 }
 input[type=range]:focus {
   outline: none;
@@ -103,7 +124,7 @@ input[type=range]::-webkit-slider-runnable-track {
   animate: 0.2s;
   box-shadow: 1px 1px 1px #002200;
   background: #205928;
-  border-radius: 1px;
+  border-radius: 4px;
   border: 1px solid #18D501;
 }
 input[type=range]::-webkit-slider-thumb {

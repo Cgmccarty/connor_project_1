@@ -4,6 +4,7 @@ html, body {
   margin: 15px;
   height: 100%;
   display: grid;
+  margin-right: 20px;
 }
 html #button, body #button {
   background-color: #cd9703;
@@ -11,6 +12,13 @@ html #button, body #button {
   border-color: #003763;
 }
 
+footer {
+  margin-bottom: 75px;
+}
+
+body {
+  margin-top: 50px;
+}
 body a {
   color: #cd9703;
 }
@@ -29,15 +37,28 @@ body .thankYou {
   text-align: center;
 }
 body .issues1, body .issues2, body .issues3 {
-  border-left: ridge;
-  border-right: ridge;
+  border-top: ridge;
+  border-bottom: ridge;
   border-color: #1b73d3;
-  padding: 40px;
-  border-radius: 75%;
+  border-radius: 10%;
+  padding: 10px;
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
 }
 body output {
   color: #18D501;
+  position: relative;
+}
+body .row {
+  display: flex;
+  justify-content: center;
+}
+body .card {
+  border-radius: 10%;
+  overflow: hidden;
 }
 
 input[type=range] {
@@ -46,6 +67,7 @@ input[type=range] {
   margin: 10px 10px;
   width: 100%;
   background-color: #003763;
+  position: relative;
 }
 
 input[type=range]:focus {
@@ -59,7 +81,7 @@ input[type=range]::-webkit-slider-runnable-track {
   animate: 0.2s;
   box-shadow: 1px 1px 1px #002200;
   background: #205928;
-  border-radius: 1px;
+  border-radius: 4px;
   border: 1px solid #18D501;
 }
 
