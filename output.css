@@ -11,6 +11,9 @@ html #button, body #button {
   color: #003763;
   border-color: #003763;
 }
+html #button:active, body #button:active {
+  background-color: gold;
+}
 
 footer {
   margin-bottom: 75px;

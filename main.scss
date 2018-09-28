@@ -46,6 +46,10 @@ html, body {
     color: $primary;
     border-color: $primary;
   }
+
+  #button:active {
+    background-color: gold;
+  }
 }
 
 footer {

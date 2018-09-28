@@ -15,6 +15,7 @@ function thankYou() {
       alert("Thank you for your pledge. DON'T FORGET TO VOTE ON NOVERMBER 6TH!");
     }
   } else if (response === "No"){
+    alert("We didn't want your vote anyway.")
     window.location.href = "https://www.google.com";
   }
 }
